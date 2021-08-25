@@ -22,6 +22,7 @@ jobs:
     - name: Dependencies Installation
       run: |
         go get github.com/google/go-querystring/query
+        go get github.com/plivo/plivo-go
         go get github.com/sirupsen/logrus
         go get github.com/stretchr/testify/assert
     - name: Test
