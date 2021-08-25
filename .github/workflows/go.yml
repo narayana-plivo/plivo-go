@@ -26,5 +26,8 @@ jobs:
         go get github.com/sirupsen/logrus
         go get github.com/dgrijalva/jwt-go
         go get github.com/stretchr/testify/assert
+        go get golang.org/x/text/runes
+        go get golang.org/x/text/transform
+        go get golang.org/x/text/unicode/norm
     - name: Test
       run: go test -v ./...
